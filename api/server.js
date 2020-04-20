@@ -6,7 +6,7 @@ const express = require("express");
 
 const apiRouter = require("./api-router.js");
 const configuredMiddleware = require("./configuredMiddleware");
-//const knex = require("../data/dbConfig.js");
+const knex = require("../data/dbConfig.js");
 
 const server = express();
 
